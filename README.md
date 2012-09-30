@@ -3,7 +3,7 @@ My current dotfile setup, taken in large part from Geoffrey Groesenbach's [Advan
 To use this on your Unix system (I'm on OSX):
 
 1. First, fork your own version of this project using the **Fork** button at the top of the page. Then you can change it however you like and store the changes on Github.
-1. Click the "Copy to clipboard" icon at the top of the page in your new repository.
+1. Click the **Copy to clipboard** icon at the top of the page in your new repository.
 1. In your terminal, `cd ~/bin`. Create the dir with `mkdir ~/bin` if you don't already have it.
 1. Type `git clone`, paste in the URL you got from above, then press enter. This will insert everything into `~/bin/dotfiles`.
 1. `cd ~`
