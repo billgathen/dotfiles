@@ -1,0 +1,22 @@
+# GIT
+alias st="git st"
+alias gd="git diff"
+alias cm="git cm"
+alias cob="git cob"
+alias ra="git ra"
+alias l="git r"
+alias br="git branch"
+alias st="git st"
+
+alias ll="ls -l"
+alias h="history"
+alias back="cd -"
+alias ..="cd .."
+
+# management
+alias reload="source ~/bin/dotfiles/shell_config/aliases"
+alias ea="subl -w ~/bin/dotfiles/shell_config/aliases && reload"
+
+function rspec {
+	bundle exec rspec $*
+}

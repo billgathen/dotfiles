@@ -1,0 +1,22 @@
+# output elapsed time for long-running commands
+REPORTTIME=10
+
+autoload -U colors
+colors
+setopt prompt_subst
+
+# local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
+
+# PROMPT='
+# %~
+# ${smiley}  %{$reset_color%}'
+# RPROMPT='%{$fg[white]%} $(~/.rvm/bin/rvm-prompt)$(~/bin/dotfiles/shell_config/git-cwd-info)%{$reset_color%}'
+PROMPT='
+%~ %{$fg[green]%}$(~/.rvm/bin/rvm-prompt)$(~/bin/dotfiles/shell_config/git-cwd-info)
+%{$fg_bold[yellow]%}→%{$reset_color%} '
+
+setopt menucomplete
+
+# load completions for ruby, git, etc
+autoload compinit
+compinit
