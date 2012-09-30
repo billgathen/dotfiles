@@ -8,11 +8,11 @@ To use this on your Unix system (I'm on OSX):
 1. Type `git clone`, paste in the URL you got from above, then press enter. This will insert everything into `~/bin/dotfiles`.
 1. `cd ~`
 1. `ls -a ~/bin/dotfiles/examples` will reveal the 4 files I keep so I can use either shell (bash or zsh) with largely the same feature set.
-1. Back up your existing ones first, ideally by naming them something like `.old_zshrc` or the like.
-1. Copy the 2 that match your shell (or all 4 if you like) into your home directory.
+1. Back up your existing ones first. I suggest `mv .bashrc .old_bashrc`, etc.
+1. Copy the 2 that match your shell (or all 4 if you like) into your home directory with `cp ~/bin/dotfiles/examples/.bashrc .`, etc.
 
 The next time you open a terminal window, you should get all the features.
 
 If you're on one shell (probably bash) and want to try the other, use `chsh -s /bin/bash` or `chsh -s /bin/zsh` (whichever you want to try out) at the command line. You'll have to open a new terminal window to see the change, but now you're good to go!
 
-**NOTE** `~/bin/dotfiles/shell_config/env` has a line that loads my auth credentials for the various things I do. Make sure you do the same (instead of putting them directly in that file) in order to prevent your passwords from showing up on Github! ;-)
+**NOTE** `~/bin/dotfiles/shell_config/env` has a `source ~/.auth` line, which loads my auth credentials for the various things I do. Make sure you do the same (instead of putting them directly in that file) in order to prevent your passwords from showing up on Github! ;-)
