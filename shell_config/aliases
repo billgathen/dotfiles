@@ -20,3 +20,8 @@ alias ea="subl -w ~/bin/dotfiles/shell_config/aliases && reload"
 function rspec {
 	bundle exec rspec $*
 }
+
+function e {
+	subl # need to open the app first: no clue why
+	subl -n ${1:-"."}
+}
