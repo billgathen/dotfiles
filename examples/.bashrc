@@ -1,1 +1,1 @@
-source bin/dotfiles/bashrc
+source ~/bin/dotfiles/bashrc

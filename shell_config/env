@@ -6,7 +6,7 @@ export WORK_DIR=/Users/Bill/work
 export EDITOR='subl -w'
 export BUNDLED_EDITOR=vim
 
-export PATH=/Users/Bill/.rvm/gems/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/Bill/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/Bill/bin:/usr/local/mysql/bin:/usr/local/ImageMagick-6.5.5/bin:/Users/Bill/jruby-1.5.1/bin:/Users/Bill/gsutil:.
+export PATH=/Users/Bill/.rvm/gems/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/Bill/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/Bill/bin:/usr/local/mysql/bin:/usr/local/ImageMagick-6.5.5/bin:/Users/Bill/jruby-1.5.1/bin:/Users/Bill/gsutil:/usr/local/share/python:.
 export CDPATH=~/dev:~/work
 
 # This is how you avoid putting your user/pass info in source control!
