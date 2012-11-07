@@ -1,12 +1,12 @@
 # GIT
 alias st="git st"
-alias gd="git diff"
+alias gd="git diff --word-diff"
 alias cm="git cm"
 alias cob="git cob"
 alias ra="git ra"
 alias l="git r"
 alias br="git branch"
-alias st="git st"
+alias st="git status -sb"
 
 alias ll="ls -l"
 alias h="history"
