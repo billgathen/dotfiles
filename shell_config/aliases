@@ -8,6 +8,7 @@ alias l="git r"
 alias br="git branch"
 alias st="git status -sb"
 
+# CLI
 alias ll="ls -l"
 alias h="history"
 alias back="cd -"
@@ -21,6 +22,10 @@ alias ea="subl -w ~/bin/dotfiles/shell_config/aliases && reload"
 
 function rs {
 	bundle exec rspec $*
+}
+
+function c {
+	bundle exec cucumber $* --format progress
 }
 
 function e {
