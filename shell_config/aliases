@@ -1,12 +1,11 @@
 # GIT
-alias st="git st"
 alias gd="git diff --word-diff"
 alias cm="git cm"
 alias cob="git cob"
 alias ra="git ra"
-alias l="git r"
 alias br="git branch"
 alias st="git status -sb"
+alias gs="st; echo ''; ra"
 
 # CLI
 alias ll="ls -l"
@@ -15,6 +14,10 @@ alias back="cd -"
 alias ..="cd .."
 alias dev="cd ~/dev"
 alias work="cd ~/work"
+
+# BUNDLER
+alias be="bundle exec"
+alias ber="bundle exec rake"
 
 # management
 alias reload="source ~/bin/dotfiles/shell_config/aliases"
