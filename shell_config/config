@@ -38,4 +38,4 @@ BMAGENTA='\e[45m'
 BCYAN='\e[46m'
 BWHITE='\e[47m'
 
-PS1="\n\w \[$GREEN\]\$(vcprompt -f '%b')\[$NO_COLOR\] \n→ "
+PS1="\w \[$GREEN\]\$(vcprompt -f '%b')\[$NO_COLOR\] → "

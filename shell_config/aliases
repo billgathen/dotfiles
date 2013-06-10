@@ -5,7 +5,8 @@ alias cob="git cob"
 alias ra="git ra"
 alias br="git branch"
 alias st="git status -sb"
-alias gs="st; echo ''; ra"
+alias g="st; echo ''; ra"
+alias gitprod="git co production; git merge master; git push; git co master"
 
 # CLI
 alias ll="ls -l"
@@ -14,6 +15,15 @@ alias back="cd -"
 alias ..="cd .."
 alias dev="cd ~/dev"
 alias work="cd ~/work"
+
+# tmux
+alias tls="tmux list-sessions"
+alias ta="tmux attach -t $1"
+
+# vim
+alias o="vim $*"
+alias p="vim ~/bills-projects.txt"
+alias n="vim ~/bills-notes.txt"
 
 # BUNDLER
 alias be="bundle exec"
