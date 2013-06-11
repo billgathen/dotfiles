@@ -1,3 +1,4 @@
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 rvm use default
 source ~/.rvmrc
+cd . # force tmux to load project-specific rvm config
