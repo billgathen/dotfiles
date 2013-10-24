@@ -16,6 +16,7 @@ alias b="cd -"
 alias ..="cd .."
 alias dev="cd ~/dev"
 alias work="cd ~/work"
+alias js="cd ~/javascript"
 
 # tmux
 alias tls="tmux list-sessions"
