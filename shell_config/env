@@ -6,7 +6,7 @@ export EDITOR=vim
 #export EDITOR='subl -w'
 export BUNDLED_EDITOR=vim
 
-export PATH=/Users/Bill/.rvm/gems/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/Bill/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/Bill/bin:/usr/local/mysql/bin:/usr/local/ImageMagick-6.5.5/bin:/Users/Bill/jruby-1.5.1/bin:/Users/Bill/gsutil:/usr/local/share/python:/Users/Bill/AWS-ElasticBeanstalk-CLI-2.5.1/eb/macosx/python2.7:.
+export PATH=/Users/Bill/.rvm/gems/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/Bill/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/Bill/bin:/usr/local/mysql/bin:/usr/local/ImageMagick-6.5.5/bin:/Users/Bill/jruby-1.5.1/bin:/Users/Bill/gsutil:/Users/Bill/AWS-ElasticBeanstalk-CLI-2.5.1/eb/macosx/python2.7:.
 export CDPATH=.:~/dev:~/work
 
 # Speed up MRI, per this guy: http://fredwu.me/post/60441991350/protip-ruby-devs-please-tweak-your-gc-settings-for
