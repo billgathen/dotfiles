@@ -1,17 +1,19 @@
-export RAILS_ENV=development
+#export RAILS_ENV=development
 export USER=billgathen
-export WORK_DIR=/Users/Bill/work
+export WORK_DIR=/Users/bill/work
 
 export EDITOR=vim
 #export EDITOR='subl -w'
 export BUNDLED_EDITOR=vim
 
-export PATH=/Users/Bill/.rvm/gems/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/Bill/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/Bill/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/Bill/bin:/usr/local/mysql/bin:/usr/local/ImageMagick-6.5.5/bin:/Users/Bill/jruby-1.5.1/bin:/Users/Bill/gsutil:/Users/Bill/AWS-ElasticBeanstalk-CLI-2.5.1/eb/macosx/python2.7:.
+export PATH=/Users/bill/.rvm/gems/ruby-1.9.2-p290/bin:/Users/bill/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/bill/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/bill/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/bill/bin:/usr/local/mysql/bin:/usr/local/ImageMagick-6.5.5/bin:/Users/bill/jruby-1.5.1/bin:/Users/bill/gsutil:/Users/bill/AWS-ElasticBeanstalk-CLI-2.6.0/eb/macosx/python2.7:.
 export CDPATH=.:~/dev:~/work
 
 # Speed up MRI, per this guy: http://fredwu.me/post/60441991350/protip-ruby-devs-please-tweak-your-gc-settings-for
 export RUBY_GC_MALLOC_LIMIT=90000000
-export RUBY_FREE_MIN=200000
+# export RUBY_FREE_MIN=200000
+
+export NODE_PATH=/usr/local/lib/node_modules
 
 # This is how you avoid putting your user/pass info in source control!
 source ~/.auth
