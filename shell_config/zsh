@@ -20,3 +20,5 @@ setopt menucomplete
 # load completions for ruby, git, etc
 autoload compinit
 compinit
+
+bindkey -e
