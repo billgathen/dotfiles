@@ -1,6 +1,7 @@
 #export RAILS_ENV=development
 export USER=billgathen
 export WORK_DIR=/Users/bill/work
+export RACK_ENV=development
 
 export EDITOR=vim
 #export EDITOR='subl -w'
