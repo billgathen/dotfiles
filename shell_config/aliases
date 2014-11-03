@@ -30,6 +30,10 @@ alias n="vim ~/bills-notes.txt"
 # BUNDLER
 alias be="bundle exec"
 alias ber="bundle exec rake"
+alias rake="bundle exec rake"
+alias cap="bundle exec cap"
+alias rails="bundle exec rails"
+alias rspec="bundle exec rspec"
 
 # management
 alias reload="source ~/bin/dotfiles/shell_config/aliases"
