@@ -6,7 +6,8 @@ alias ra="git ra"
 alias br="git branch"
 alias st="git status -sb"
 alias g="st; echo ''; ra; echo '';"
-alias gitprod="git co production; git merge master; git push; git co master"
+alias gitprod="git co production && git merge master && git push && git co master"
+alias done_today='GIT_COMMITTER_DATE="`date`" git commit --amend --date "`date`"'
 
 # CLI
 alias ll="ls -l"
@@ -34,6 +35,7 @@ alias rake="bundle exec rake"
 alias cap="bundle exec cap"
 alias rails="bundle exec rails"
 alias rspec="bundle exec rspec"
+alias migrate="rake db:migrate && rake db:test:prepare"
 
 # management
 alias reload="source ~/bin/dotfiles/shell_config/aliases"
