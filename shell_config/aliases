@@ -28,13 +28,16 @@ alias o="vim $*"
 alias p="vim ~/bills-projects.txt"
 alias n="vim ~/bills-notes.txt"
 
+# sublime
+alias e="subl ."
+
 # BUNDLER
 alias be="bundle exec"
 alias ber="bundle exec rake"
-alias rake="bundle exec rake"
-alias cap="bundle exec cap"
-alias rails="bundle exec rails"
-alias rspec="bundle exec rspec"
+# alias rake="bundle exec rake"
+# alias cap="bundle exec cap"
+# alias rails="bundle exec rails"
+# alias rspec="bundle exec rspec"
 alias migrate="rake db:migrate && rake db:test:prepare"
 
 # management
