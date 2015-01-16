@@ -1,6 +1,7 @@
 # GIT
 alias gd="git diff --word-diff"
 alias cm="git cm"
+alias ca="git commit --amend"
 alias cob="git cob"
 alias ra="git ra"
 alias br="git branch"
